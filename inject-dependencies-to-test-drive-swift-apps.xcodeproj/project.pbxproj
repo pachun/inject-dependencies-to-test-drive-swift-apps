@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF0DED801D503D0700CBFFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DED7F1D503D0700CBFFFA /* AppDelegate.swift */; };
+		DF0DEDAE1D5040AC00CBFFFA /* DaysSinceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DEDAD1D5040AC00CBFFFA /* DaysSinceTests.swift */; };
+		DF0DEDB01D50423800CBFFFA /* DaysSinceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DEDAF1D50423800CBFFFA /* DaysSinceViewController.swift */; };
+		DF0DEDB21D5044D100CBFFFA /* DaysSinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DEDB11D5044D100CBFFFA /* DaysSinceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		DF0DED961D503D0700CBFFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF0DED9B1D503D0700CBFFFA /* inject-dependencies-to-test-drive-swift-appsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inject-dependencies-to-test-drive-swift-appsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0DEDA11D503D0700CBFFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0DEDAD1D5040AC00CBFFFA /* DaysSinceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysSinceTests.swift; sourceTree = "<group>"; };
+		DF0DEDAF1D50423800CBFFFA /* DaysSinceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysSinceViewController.swift; sourceTree = "<group>"; };
+		DF0DEDB11D5044D100CBFFFA /* DaysSinceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysSinceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				DF0DED7F1D503D0700CBFFFA /* AppDelegate.swift */,
+				DF0DEDAF1D50423800CBFFFA /* DaysSinceViewController.swift */,
+				DF0DEDB11D5044D100CBFFFA /* DaysSinceView.swift */,
 				DF0DED8B1D503D0700CBFFFA /* Info.plist */,
 			);
 			path = "inject-dependencies-to-test-drive-swift-apps";
@@ -103,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				DF0DEDA11D503D0700CBFFFA /* Info.plist */,
+				DF0DEDAD1D5040AC00CBFFFA /* DaysSinceTests.swift */,
 			);
 			path = "inject-dependencies-to-test-drive-swift-appsUITests";
 			sourceTree = "<group>";
@@ -235,7 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0DEDB01D50423800CBFFFA /* DaysSinceViewController.swift in Sources */,
 				DF0DED801D503D0700CBFFFA /* AppDelegate.swift in Sources */,
+				DF0DEDB21D5044D100CBFFFA /* DaysSinceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0DEDAE1D5040AC00CBFFFA /* DaysSinceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +415,12 @@
 		DF0DEDAB1D503D0700CBFFFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "inject-dependencies-to-test-drive-swift-appsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pachun.inject-dependencies-to-test-drive-swift-appsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = "inject-dependencies-to-test-drive-swift-apps";
 			};
 			name = Debug;
@@ -414,6 +428,7 @@
 		DF0DEDAC1D503D0700CBFFFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "inject-dependencies-to-test-drive-swift-appsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pachun.inject-dependencies-to-test-drive-swift-appsUITests";
