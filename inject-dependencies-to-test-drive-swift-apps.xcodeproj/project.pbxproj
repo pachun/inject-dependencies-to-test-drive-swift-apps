@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DF0DED801D503D0700CBFFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DED7F1D503D0700CBFFFA /* AppDelegate.swift */; };
-		DF0DED821D503D0700CBFFFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DED811D503D0700CBFFFA /* ViewController.swift */; };
-		DF0DED851D503D0700CBFFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0DED831D503D0700CBFFFA /* Main.storyboard */; };
-		DF0DED871D503D0700CBFFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0DED861D503D0700CBFFFA /* Assets.xcassets */; };
-		DF0DED8A1D503D0700CBFFFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0DED881D503D0700CBFFFA /* LaunchScreen.storyboard */; };
-		DF0DED951D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DED941D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsTests.swift */; };
-		DF0DEDA01D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DED9F1D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +30,10 @@
 /* Begin PBXFileReference section */
 		DF0DED7C1D503D0700CBFFFA /* inject-dependencies-to-test-drive-swift-apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inject-dependencies-to-test-drive-swift-apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0DED7F1D503D0700CBFFFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF0DED811D503D0700CBFFFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF0DED841D503D0700CBFFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF0DED861D503D0700CBFFFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF0DED891D503D0700CBFFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF0DED8B1D503D0700CBFFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF0DED901D503D0700CBFFFA /* inject-dependencies-to-test-drive-swift-appsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inject-dependencies-to-test-drive-swift-appsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF0DED941D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inject_dependencies_to_test_drive_swift_appsTests.swift; sourceTree = "<group>"; };
 		DF0DED961D503D0700CBFFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF0DED9B1D503D0700CBFFFA /* inject-dependencies-to-test-drive-swift-appsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inject-dependencies-to-test-drive-swift-appsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF0DED9F1D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inject_dependencies_to_test_drive_swift_appsUITests.swift; sourceTree = "<group>"; };
 		DF0DEDA11D503D0700CBFFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,10 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				DF0DED7F1D503D0700CBFFFA /* AppDelegate.swift */,
-				DF0DED811D503D0700CBFFFA /* ViewController.swift */,
-				DF0DED831D503D0700CBFFFA /* Main.storyboard */,
-				DF0DED861D503D0700CBFFFA /* Assets.xcassets */,
-				DF0DED881D503D0700CBFFFA /* LaunchScreen.storyboard */,
 				DF0DED8B1D503D0700CBFFFA /* Info.plist */,
 			);
 			path = "inject-dependencies-to-test-drive-swift-apps";
@@ -110,7 +94,6 @@
 		DF0DED931D503D0700CBFFFA /* inject-dependencies-to-test-drive-swift-appsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF0DED941D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsTests.swift */,
 				DF0DED961D503D0700CBFFFA /* Info.plist */,
 			);
 			path = "inject-dependencies-to-test-drive-swift-appsTests";
@@ -119,7 +102,6 @@
 		DF0DED9E1D503D0700CBFFFA /* inject-dependencies-to-test-drive-swift-appsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DF0DED9F1D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsUITests.swift */,
 				DF0DEDA11D503D0700CBFFFA /* Info.plist */,
 			);
 			path = "inject-dependencies-to-test-drive-swift-appsUITests";
@@ -229,9 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0DED8A1D503D0700CBFFFA /* LaunchScreen.storyboard in Resources */,
-				DF0DED871D503D0700CBFFFA /* Assets.xcassets in Resources */,
-				DF0DED851D503D0700CBFFFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0DED821D503D0700CBFFFA /* ViewController.swift in Sources */,
 				DF0DED801D503D0700CBFFFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0DED951D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0DEDA01D503D0700CBFFFA /* inject_dependencies_to_test_drive_swift_appsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +267,6 @@
 			targetProxy = DF0DED9C1D503D0700CBFFFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DF0DED831D503D0700CBFFFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF0DED841D503D0700CBFFFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DF0DED881D503D0700CBFFFA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF0DED891D503D0700CBFFFA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DF0DEDA21D503D0700CBFFFA /* Debug */ = {
